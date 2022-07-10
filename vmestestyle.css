@@ -1,0 +1,288 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(../image/back.jpg);
+}
+.header_logo {
+    width: 5vw;
+}
+.social {
+    width: 2vw;
+} 
+.header_div {
+    position: fixed;
+    width: 100vw;
+    z-index: 99;
+}
+.header_image {
+    width: 100vw;
+}
+.stoika {
+    width: 100vw;
+}
+.info {
+    width: 35vw;
+    position: relative;
+    left: 30vw;
+    z-index: 1;
+    opacity: 0.8;
+    margin-bottom: 5%;
+}
+#info_menu {
+    background-image: url(../image/back.jpg);
+}
+#info_img {
+    width: 1vw;
+}
+#info_text {
+    font-size: 1vw;
+    color: #fff;
+}
+p {
+    font-family: Monotype Corsiva;
+}
+.big {
+    font-size: 2vw;
+}
+.more_info {
+    width: 10px;
+    height: 10px;
+}
+#title_text {
+    color: white;
+    font-size: 5vw;
+    
+}
+.assortment { 
+    width:100vw ;
+    height:20vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+#cards_item {
+    width:25vw ;
+    height:10vh ;  
+}
+#cards_item:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+#card_logo {
+    width: 10vw;
+    height: 5vh;
+}
+#card_title {
+    font-family: cursive;
+}
+.drinks_menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+.full_menu {
+    width: 35vw;
+    height:85vh ;
+}
+.map {
+    width:20vw ;
+    height:20vh ;
+}
+.footer {
+    border-top: 5vh solid rgb(61, 61, 61);
+    box-shadow: 0 0 15px rgb(255, 4, 4);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   margin-top: 10vh;
+    width: 100vw;
+    height: 300px;
+}
+.footer_sergey {
+    display: flex;
+    flex-direction: column;
+}
+.sergey_social {
+    width: 2vw;
+}
+.footer_map {
+    display: flex;
+    align-items: center;
+
+}
+.map_info {
+    font-size: 2vh;
+    color: #fff;
+    margin-right: 10px;
+}
+@media screen and (max-width: 800px) {
+   #info_text {
+   font-size: 1vw; 
+ }
+ .footer {
+    border-top: 2vh solid rgb(61, 61, 61);
+ }
+ .info {
+    width: 60vw;
+    position: relative;
+    left: 25vw;
+    bottom: 1vw;
+ }
+ .social {
+    width: 4vw;
+} 
+.assortment {
+    height: 10vh;
+}
+.map {
+    position: relative;
+    top: 3vh;
+    width:40vw ;
+    height:20vh ;
+}
+.map_info {
+    font-size: 3vw;
+    
+}
+.sergey_social {
+    width: 5vw;
+}
+#card_logo {
+    width: 10vw;
+    height: 2vh;
+}
+#cards_item {
+    width: 30vw;
+}
+#card_title {
+    font-size: 2vw;
+   
+}
+#title_text {
+    font-size: 4vh;
+}
+.full_menu {
+    width: 45vw;
+    height:30vh ;
+}
+.sign-wrap-3 {
+    padding: 30px 20px;
+}
+.sign-wrap-4 {
+    padding: 30px 20px;
+}
+}
+.sign-wrap-3 {
+    
+    text-align: center;
+    padding: 60px 20px;
+}
+.sign-wrap-3 .sign_word {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    animation: neon-3 5s steps(1, start) infinite reverse;
+}
+@keyframes neon-3 {
+    0%{
+        color: #2c0000;
+        text-shadow: 0 0 7px #272727, 0 0 8px #272727;
+    }
+    80%{
+        color: #fff;
+        text-shadow: 0 0 6px #fff,0 0 10px #fff,0 0 50px #79a7fc;
+    }
+    81%{
+        color: #E1F5FE;
+        text-shadow: 0 0 6px #fff,0 0 10px #fff,0 0 50px #79a7fc;
+    }
+    82%{color: #2c0000;
+        text-shadow: 0 0 7px #272727, 0 0 8px #0b3960;
+    }
+    83%{
+        color: #E1F5FE;
+        text-shadow: 0 0 6px #fff,0 0 10px #fff,0 0 50px #79a7fc;
+    }
+    84%{
+        color: #2c0000;
+        text-shadow: 0 0 7px #272727, 0 0 8px #272727;
+    }
+    85%{
+        color: #E1F5FE;
+        text-shadow: 0 0 6px #fff,0 0 10px #fff,0 0 50px #79a7fc;
+    }
+    100%{
+        color: #4b4747;
+        text-shadow: 0 0 7px #272727,0 0 8px #272727;
+    }
+}
+.sign-wrap-4 {
+    
+    text-align: center;
+    padding: 60px 20px;
+}
+.sign-wrap-4 .sign_word {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #960101, 0 0 0.5em #8d0000, 0 0 0.1em #700000;
+}
+.sign-wrap-4 .sign_word span {
+    animation: neon-4 linear infinite 2s;
+}
+@keyframes neon-4 {
+    78% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    79%{
+        color: #2c0000;
+    }
+    80% {
+        text-shadow: none;
+    }
+    81% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    82% {
+        color: #2c0000;
+        text-shadow: none;
+    }
+    83% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    92% {
+        color: #2c0000;
+        text-shadow: none;
+    }
+    92.5% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+}
+#mouse-line {
+    user-select: none;
+    width: 100vw;
+    height:30vh;
+    background-color: rgb(0, 0, 0);
+    background-image: url(/demo/i/gymlines.jpg);
+    background-size: cover;    
+    background-position: 50% 50%;    
+    margin: 20px 0;
+}    
+@media (max-width: 768px) {
+    #mouse-line {
+        height: 100px;    
+    }
+}
